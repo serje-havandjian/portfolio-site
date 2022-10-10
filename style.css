@@ -6,8 +6,6 @@ body{
     font-size: 20px;
 }
 
-
-
 /* .test{
     display: flex;
     flex-wrap: wrap;
@@ -59,6 +57,8 @@ body{
 }
 
 
+
+
 @media (max-width: 1200px) {
     .row1{
         display: block;
@@ -78,4 +78,78 @@ body{
     .traveler{
         width: 100%;
     }
+}
+
+.buttons:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.buttons{
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 11%), 1px 1px 0 rgb(255 255 255 / 21%) inset;
+    
+}
+
+.buttons-secondary{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.buttons{
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+    padding: 0.375rem 0.75rem;
+    padding-top: 0.375rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.75rem;
+
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+.buttons{
+    color: #fff;
+    transition: background-color 1s;
+}
+
+.buttons:hover{
+    background-color: #004369;
+}
+
+.buttons:focus,
+.buttons:active{
+    background-color: black;
+    transition: none;
 }
