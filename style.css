@@ -1,0 +1,81 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+
+
+/* .test{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+} */
+
+@media (min-width: 1200px) and (max-width: 3000px) {
+    .projects{
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+
+.name{
+    font-weight:500;
+}
+.title{
+    font-weight: lighter;
+}
+
+.header{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(20, 105, 179);
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chat{
+    width: 50%;
+}
+.litigator{
+    width: 50%;
+}
+.destination{
+    width: 50%;
+}
+.traveler{
+    width: 50%;
+}
+
+
+@media (max-width: 1200px) {
+    .row1{
+        display: block;
+    }
+    .row2{
+        display: block;
+    }
+    .chat{
+        width: 100%;
+    }
+    .litigator{
+        width: 100%;
+    }
+    .destination{
+        width: 100%;
+    }
+    .traveler{
+        width: 100%;
+    }
+}
