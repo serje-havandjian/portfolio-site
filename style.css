@@ -36,24 +36,28 @@ body{
 .row1{
     display: flex;
     justify-content: space-evenly;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .row2{
     display: flex;
     justify-content: space-evenly;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .chat{
-    width: 50%;
+    width: 45%;
 }
 .litigator{
-    width: 50%;
+    width: 45%;
 }
 .destination{
-    width: 50%;
+    width: 45%;
 }
 .traveler{
-    width: 50%;
+    width: 45%;
 }
 
 
